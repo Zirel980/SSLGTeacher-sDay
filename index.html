@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Letters of Appreciation</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         BACKGROUND DECORATIONS
+    ====================================== -->
+
+    <div class="decor decor-one"></div>
+
+    <div class="decor decor-two"></div>
+
+    <div class="decor decor-three"></div>
+
+
+    <!-- =====================================
+         HEADER
+    ====================================== -->
+
+    <header>
+
+        <div class="small-title">
+            TEACHER'S DAY • 2026
+        </div>
+
+
+        <h1>
+
+            Letters
+
+            <span>For You</span>
+
+        </h1>
+
+
+        <p class="subtitle">
+
+            Twenty little messages of
+            <br>
+            appreciation from the SSLG.
+
+        </p>
+
+    </header>
+
+
+    <!-- =====================================
+         INTRODUCTION
+    ====================================== -->
+
+    <section class="intro">
+
+        <div class="intro-icon">
+            ✉
+        </div>
+
+
+        <p>
+
+            Dear Co-Adviser,
+
+            <br><br>
+
+            Behind every envelope is a little message
+            prepared especially for you.
+
+            <br><br>
+
+            Answer the question correctly to unlock
+            each letter and discover the message
+            waiting inside.
+
+            <br><br>
+
+            <strong>
+                With appreciation from the SSLG.
+            </strong>
+
+        </p>
+
+    </section>
+
+
+    <!-- =====================================
+         LETTER COLLECTION
+    ====================================== -->
+
+    <main>
+
+        <div
+            class="section-heading"
+        >
+
+            <span>
+                ✦
+            </span>
+
+            THE LETTERS
+
+            <span>
+                ✦
+            </span>
+
+        </div>
+
+
+        <div
+            class="letter-grid"
+            id="letterGrid"
+        ></div>
+
+    </main>
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer>
+
+        <div class="footer-heart">
+            ♥
+        </div>
+
+
+        <p>
+            Made with gratitude by the SSLG.
+        </p>
+
+
+        <span>
+            Happy Teacher's Day!
+        </span>
+
+    </footer>
+
+
+    <!-- =====================================
+         MODAL
+    ====================================== -->
+
+    <div
+        class="modal"
+        id="letterModal"
+    >
+
+        <div
+            class="modal-overlay"
+            onclick="closeModal()"
+        ></div>
+
+
+        <div class="modal-content">
+
+            <button
+                class="close-button"
+                onclick="closeModal()"
+                aria-label="Close"
+            >
+                ×
+            </button>
+
+
+            <div
+                id="modalBody"
+            ></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
